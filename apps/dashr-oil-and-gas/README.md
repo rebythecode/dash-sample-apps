@@ -1,44 +1,26 @@
-# Dash Wind Streaming
+# Dash Oil and Gas Demo
 
-## About this app
+## About this App:
 
-This app queries a SQL database every second and uses the data to update the wind speed diagram and the wind direction diagram. 
-The wind speed values are then binned in real time to generate the wind histogram plot.
+This is an interactive dash app that allows users to select gas well types and regions. 
 
-Original repo: [plotly/dash-wind-streaming](https://github.com/plotly/dash-wind-streaming)
+Github Repo: [plotly/dash-sample-apps](https://github.com/plotly/dash-sample-apps/)
 
 
-## How to run this app
+## How to Run the App: 
 
-(The following instructions apply to Posix/bash. Windows users should check
-[here](https://docs.python.org/3/library/venv.html).)
+Clone the repository.
 
-First, clone this repository and open a terminal inside the root folder.
+Run `app.R`
+Or `Rscript app.R` in Terminal or Command Line. 
 
-Create and activate a new virtual environment (recommended) by running
-the following:
+The app will load into your default browser window. If it does not, navigate to 127.0.0.1:8050.
 
-```bash
-python3 -m venv myvenv
-source myvenv/bin/activate
-```
+## Screenshots:
 
-Install the requirements:
+![image](assets/app.png)
 
-```bash
-pip install -r requirements.txt
-```
-Run the app:
+## More:
 
-```bash
-python app.py
-```
-Open a browser at http://127.0.0.1:8050
-
-## Screenshots
-
-![demo.gif](demo.gif)
-
-## Resources
-
-- To learn more about Dash, check out our [documentation](https://plot.ly/dash).
+Learn more about Plotly and Dash [here](https://plot.ly/dash).
+##
